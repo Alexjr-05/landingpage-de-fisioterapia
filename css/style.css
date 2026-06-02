@@ -1674,8 +1674,8 @@ section {
   .hero__cta { justify-content: center; }
   .hero__badges { justify-content: center; }
 
-  .hero__image-wrapper { max-width: 360px; margin: 0 auto; }
-  .hero__photo { height: 440px; }
+  .hero__image-wrapper { max-width: 380px; margin: 0 auto; }
+  .hero__photo { height: auto; aspect-ratio: 3 / 4; }
 
   .sobre__grid {
     grid-template-columns: 1fr;
@@ -1758,7 +1758,7 @@ section {
     gap: 36px;
   }
 
-  .hero__photo { height: 340px; }
+  .hero__photo { height: auto; aspect-ratio: 3 / 4; max-height: 72vw; }
   .hero__image-wrapper { max-width: 100%; }
   .hero__image-badge { left: 12px; bottom: 16px; }
 
